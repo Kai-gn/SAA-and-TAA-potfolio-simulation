@@ -145,7 +145,7 @@ Despite underperforming the benchmark in terms of returns out-of-sample, the SAA
 
 - Excluding US investment grade bonds resulted in a tracking error mean of 6.8%.
 - Performance attribution showed that the deviation from the model was primarily due to selection effects in the Bonds sector.
-- The client approved the model despite excluding US investment grade bonds. The replication risk was managed by minimizing the variance of the tracking error for each date.
+- The replication risk was managed by minimizing the variance of the tracking error for each date.
 - Adjustments were made primarily in world equities and gold to compensate for the exclusion of US investment grade bonds.
 - Allocation effects and selection effects were analyzed, showing that the deviation from the model portfolio was mainly due to selection effects.
 
@@ -158,8 +158,6 @@ Despite underperforming the benchmark in terms of returns out-of-sample, the SAA
 | Hit Ratio             | 0.7479           | 0.68548    |
 
 The following chart shows the cumulative returns of the target portfolio compared to the benchmark:
-
-![Target vs Benchmark Cumulative Returns](link_to_chart_image)
 
 ## Conclusion
 
