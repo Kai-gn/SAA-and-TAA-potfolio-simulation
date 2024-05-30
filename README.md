@@ -145,10 +145,25 @@ Despite underperforming the benchmark in terms of returns out-of-sample, the SAA
 
 - Excluding US investment grade bonds resulted in a tracking error mean of 6.8%.
 - Performance attribution showed that the deviation from the model was primarily due to selection effects in the Bonds sector.
+- The client approved the model despite excluding US investment grade bonds. The replication risk was managed by minimizing the variance of the tracking error for each date.
+- Adjustments were made primarily in world equities and gold to compensate for the exclusion of US investment grade bonds.
+- Allocation effects and selection effects were analyzed, showing that the deviation from the model portfolio was mainly due to selection effects.
+
+| Metric                | Target Portfolio | Benchmark  |
+|-----------------------|------------------|------------|
+| Mean                  | 0.0546           | 0.0632     |
+| Volatility            | 0.0954           | 0.0672     |
+| Maximum Drawdown      | -0.0247          | -0.1015    |
+| Sharpe Ratio          | 0.5723           | 0.939      |
+| Hit Ratio             | 0.7479           | 0.68548    |
+
+The following chart shows the cumulative returns of the target portfolio compared to the benchmark:
+
+![Target vs Benchmark Cumulative Returns](link_to_chart_image)
 
 ## Conclusion
 
-Although the ERC portfolio did not outperform the benchmark initially, combining SAA and TAA with a methodical strategy based on the VIX index allowed us to come very close. The exercise highlighted the importance of adapting strategies based on market conditions and third-party information. 
+Although the ERC portfolio did not outperform the benchmark initially, combining SAA and TAA with a methodical strategy based on the VIX index allowed us to come very close. The exercise highlighted the importance of adapting strategies based on market conditions and third-party information. It was also important to manage replication risk effectively when certain asset classes were excluded from the investment universe. Overall, this project provided valuable insights into developing and implementing a robust multi-asset investment process.
 
 ---
 
