@@ -163,6 +163,3 @@ The following chart shows the cumulative returns of the target portfolio compare
 
 Although the ERC portfolio did not outperform the benchmark initially, combining SAA and TAA with a methodical strategy based on the VIX index allowed us to come very close. The exercise highlighted the importance of adapting strategies based on market conditions and third-party information. It was also important to manage replication risk effectively when certain asset classes were excluded from the investment universe. Overall, this project provided valuable insights into developing and implementing a robust multi-asset investment process.
 
----
-
-This README.md provides a comprehensive overview of the project, including detailed results and analysis from the SAA, TAA, and implementation phases.
